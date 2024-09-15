@@ -1,0 +1,18 @@
+.game-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #8b0000, #006400);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+  }
+}
+
+/* 추가적인 스타일 */
